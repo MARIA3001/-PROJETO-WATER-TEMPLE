@@ -21,7 +21,8 @@ shutdown
 int g0/0
 no shutdown
 int s0/0/0
-ip add 189.100.2 255.255.255.252
+ip add 189.100.0.2 255.255.255.252
+no shut
 ip route 0.0.0.0 0.0.0.0 189.100.0.1
 int s0/0/0
 ipv6 address 2001:DB8:FACA::2/64
